@@ -1,0 +1,17 @@
+.recipe-card>img
+{
+   width: 100px;
+   height: 100px;
+}
+.recipe-container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.recipe-card{
+    margin: 10px;
+    box-shadow: 2px 2px 2px grey;
+    box-sizing: border-box;
+    width: 100px;
+    height:min-content;
+}

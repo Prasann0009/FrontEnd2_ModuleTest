@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookpal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <!-- Mobile drawer -->
+    <nav>
+        
+    </nav>
+
+    <main>
+        <div class="filter-section">
+            <!-- Search bar -->
+            <input type="text" id="search-input" placeholder="Search recipes by name">
+
+            <!-- Recipe type filters -->
+            <button id="show-all">Show All</button>
+            <button id="show-veg">Show Only Veg</button>
+            <button id="show-non-veg">Show Only Non-Veg</button>
+
+            <!-- Rating filters -->
+            <label><input type="radio" name="rating" id="rating-above"> Rating Above 4.5</label>
+            <label><input type="radio" name="rating" id="rating-below"> Rating Below 4.0</label>
+        </div>
+
+        <div class="recipe-container">
+            <!-- Recipe cards will be dynamically generated here -->
+            <!-- Example card -->
+            <div class="recipe-card">
+                <img src="recipe_image.jpg" alt="Recipe Image">
+                <h2>Recipe Name</h2>
+                <p>Type: Veg</p>
+                <p>Time: 30 min</p>
+                <p>Rating: 4.5</p>
+                <button class="like-button">Like</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
